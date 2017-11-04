@@ -13,6 +13,10 @@
 		D347D18A1FADB6D1001FBB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D347D1891FADB6D1001FBB80 /* Assets.xcassets */; };
 		D347D18D1FADB6D1001FBB80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D347D18B1FADB6D1001FBB80 /* LaunchScreen.storyboard */; };
 		D347D1901FADB6D1001FBB80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D347D18F1FADB6D1001FBB80 /* main.m */; };
+		D347D1981FADBEF7001FBB80 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D347D1971FADBEF7001FBB80 /* Model.m */; };
+		D347D19B1FADC208001FBB80 /* Droid.m in Sources */ = {isa = PBXBuildFile; fileRef = D347D19A1FADC208001FBB80 /* Droid.m */; };
+		D347D19E1FADCAD4001FBB80 /* ProtocolDroid.m in Sources */ = {isa = PBXBuildFile; fileRef = D347D19D1FADCAD4001FBB80 /* ProtocolDroid.m */; };
+		D347D1A11FADCB0E001FBB80 /* AstroDroid.m in Sources */ = {isa = PBXBuildFile; fileRef = D347D1A01FADCB0E001FBB80 /* AstroDroid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		D347D18C1FADB6D1001FBB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D347D18E1FADB6D1001FBB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D347D18F1FADB6D1001FBB80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D347D1961FADBEF7001FBB80 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		D347D1971FADBEF7001FBB80 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		D347D1991FADC208001FBB80 /* Droid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Droid.h; sourceTree = "<group>"; };
+		D347D19A1FADC208001FBB80 /* Droid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Droid.m; sourceTree = "<group>"; };
+		D347D19C1FADCAD4001FBB80 /* ProtocolDroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolDroid.h; sourceTree = "<group>"; };
+		D347D19D1FADCAD4001FBB80 /* ProtocolDroid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolDroid.m; sourceTree = "<group>"; };
+		D347D19F1FADCB0E001FBB80 /* AstroDroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstroDroid.h; sourceTree = "<group>"; };
+		D347D1A01FADCB0E001FBB80 /* AstroDroid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroDroid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +71,16 @@
 			isa = PBXGroup;
 			children = (
 				D347D1801FADB6D1001FBB80 /* AppDelegate.h */,
+				D347D1991FADC208001FBB80 /* Droid.h */,
+				D347D19A1FADC208001FBB80 /* Droid.m */,
 				D347D1811FADB6D1001FBB80 /* AppDelegate.m */,
 				D347D1831FADB6D1001FBB80 /* ViewController.h */,
+				D347D1961FADBEF7001FBB80 /* Model.h */,
+				D347D1971FADBEF7001FBB80 /* Model.m */,
+				D347D19F1FADCB0E001FBB80 /* AstroDroid.h */,
+				D347D1A01FADCB0E001FBB80 /* AstroDroid.m */,
+				D347D19C1FADCAD4001FBB80 /* ProtocolDroid.h */,
+				D347D19D1FADCAD4001FBB80 /* ProtocolDroid.m */,
 				D347D1841FADB6D1001FBB80 /* ViewController.m */,
 				D347D1861FADB6D1001FBB80 /* Main.storyboard */,
 				D347D1891FADB6D1001FBB80 /* Assets.xcassets */,
@@ -142,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D347D19E1FADCAD4001FBB80 /* ProtocolDroid.m in Sources */,
 				D347D1851FADB6D1001FBB80 /* ViewController.m in Sources */,
 				D347D1901FADB6D1001FBB80 /* main.m in Sources */,
 				D347D1821FADB6D1001FBB80 /* AppDelegate.m in Sources */,
+				D347D19B1FADC208001FBB80 /* Droid.m in Sources */,
+				D347D1981FADBEF7001FBB80 /* Model.m in Sources */,
+				D347D1A11FADCB0E001FBB80 /* AstroDroid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 942V2826HJ;
 				INFOPLIST_FILE = Kapitel2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.wehrhahn.Kapitel2;
@@ -292,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 942V2826HJ;
 				INFOPLIST_FILE = Kapitel2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.wehrhahn.Kapitel2;
